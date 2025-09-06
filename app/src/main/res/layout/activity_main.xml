@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Qui est le roi des animaux?"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/question_textview"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/answer_lion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le lion"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/answer_lapin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le lapin"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/answer_aigle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L'aigle"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/answer_elephant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L'éléphant"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/answer_tigre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le tigre"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="24sp"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>
