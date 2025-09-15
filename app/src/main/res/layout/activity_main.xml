@@ -78,6 +78,18 @@
             android:textSize="24sp"
             android:background="#FFFFFF" />
 
+
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/eye"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/eye_visibility"
+        android:layout_marginBottom="50dp"/>
+
 
 </RelativeLayout>
